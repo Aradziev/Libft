@@ -6,7 +6,7 @@
 /*   By: aleradzi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/29 11:54:54 by aleradzi          #+#    #+#             */
-/*   Updated: 2019/07/31 12:17:22 by aleradzi         ###   ########.fr       */
+/*   Updated: 2019/08/30 14:05:04 by aleradzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_bzero(void *str, size_t n)
 
 	tmp = str;
 	i = 0;
-	while (n != 0)
+	while (n)
 	{
 		tmp[i] = '\0';
 		i++;
