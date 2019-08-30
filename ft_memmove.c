@@ -6,7 +6,7 @@
 /*   By: aleradzi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/29 15:48:31 by aleradzi          #+#    #+#             */
-/*   Updated: 2019/08/30 13:56:17 by aleradzi         ###   ########.fr       */
+/*   Updated: 2019/08/30 14:00:41 by aleradzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 	else
 		ft_memcpy(tdest, tsrc, n);
-	return (dest);
+	return (tdest);
 }
