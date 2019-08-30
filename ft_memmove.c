@@ -6,7 +6,7 @@
 /*   By: aleradzi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/29 15:48:31 by aleradzi          #+#    #+#             */
-/*   Updated: 2019/08/30 14:25:54 by aleradzi         ###   ########.fr       */
+/*   Updated: 2019/08/30 14:27:48 by aleradzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 	tsrc = (char *)src;
 	tdest = (char *)dest;
-	if (!dest && !src)
-		return (NULL);
 	if (tsrc < tdest)
 		while (n)
 		{
