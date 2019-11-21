@@ -39,3 +39,4 @@ int		ft_atoi(const char *str)
 	else
 		return (res);
 }
+//
